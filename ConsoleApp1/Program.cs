@@ -26,6 +26,10 @@ namespace ConsoleApp1
 
     public class Solution
     {
+        public int Testnum(int x)
+        {
+            return 2;
+        }
         public IList<IList<int>> ThreeSum(int[] nums)
         {
             IList<IList<int>> results = new List<IList<int>>();
